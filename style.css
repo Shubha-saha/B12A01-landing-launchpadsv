@@ -5,6 +5,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background: rgba(78, 71, 255, 0.08);
 }
 
 /* Share area  */
@@ -49,7 +50,7 @@ header{
 
 /* Main area styles  */
 .main-section{
-  margin: 150px 120px 0px;
+  margin: 120px 150px 0px;
 }
 
 /* Action area styles  */
@@ -98,4 +99,22 @@ header{
 .performance p{
   color: rgba(37, 36, 50, 0.5);
   margin-top: 0;
+}
+
+/* touch form area styles  */
+.touch-from{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+.touch-from input, .touch-from label{
+  display: block;
+}
+.touch-from input, .touch-from textarea{
+  width: 100%;
+  padding: 20px 32px;
+}
+.touch-from label{
+  font-weight: bold;
 }
