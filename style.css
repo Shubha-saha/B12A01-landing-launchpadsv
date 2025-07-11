@@ -18,6 +18,12 @@
   border-radius: 10px;
   padding: 10px 30px;
 }
+.btn-styles:hover{
+  background: yellowgreen;
+  color: black;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 .text-blue{
   color: #4E47FF;
   font-weight: 800;
