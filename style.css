@@ -140,8 +140,23 @@ header{
 .footer-area{
   background: #ffffff;
   margin-top: 120px;
-  text-align: center;
   padding: 100px;
+}
+.footer-text{
+  width: 530px;
+  text-align: center;
+  margin: 0 auto;
+}
+.list-Item ul{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.list-Item ul li{
+  list-style: none;
+}
+.list-Item li a{
+  text-decoration: none;
 }
 .footer-logo{
   font-size: 100px;
@@ -149,6 +164,4 @@ header{
 }
 .footer-subtitle{
   color: #8987A1;
-  width: 50%;
-  margin: 0 auto;
 }
