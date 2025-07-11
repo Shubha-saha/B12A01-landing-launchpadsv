@@ -46,7 +46,7 @@ header{
 }
 .header-text{
   text-align: center;
-  font-size: 65px;
+  font-size: 27px;
   padding: 80px 267px;
 }
 
@@ -85,12 +85,12 @@ header{
   border-radius: 24px;
 }
 .Productive-user h2{
-  font-size: 38px;
+  font-size: 35px;
 }
 .user-joined{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 20px;
   font-family: "Inter", sans-serif;
 }
@@ -107,16 +107,15 @@ header{
 .touch-from{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-top: 120px;
+  gap: 100px;
 }
 .touch-from h1{
-  font-size: 97px;
+  font-size: 80px;
   flex-basis: 50%;
 }
 .touch-from form{
   margin: 0;
-  flex-basis: 50%;
 }
 .touch-from label{
   display: block;
