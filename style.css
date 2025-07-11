@@ -194,7 +194,7 @@ header{
 .reviewer-info{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 .reviewer-info img{
   width: 50px;
@@ -203,4 +203,32 @@ header{
 }
 .reviewer-name{
   color: rgba(0, 0, 0, 0.3);
+}
+.reviewer-name h4{
+  margin: 0;
+}
+.reviewer-name p{
+  margin: 0;
+}
+
+/* Extra container styles  */
+.extra-container{
+  background: #ffffff;
+  margin-top: 120px;
+  text-align: center;
+  padding: 40px 100px;
+  border-radius: 14px;
+}
+.extra-container h1{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.extra-container p{
+  color: rgba(0, 0, 0, 0.65);
+}
+.extra-container img{
+  width: 740px;
+  height: 340px;
+  border-radius: 40px;
+  margin-top: 20px;
 }
